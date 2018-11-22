@@ -1,0 +1,304 @@
+
+body{
+    margin:0;
+    
+}
+
+.topnav {
+    min-height: 60px;
+    width: 100%;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    
+    
+
+}
+
+li {
+    list-style:none
+    color: #000;
+    text-decoration: none;
+    
+}
+
+.parrafo1, .parrafo2{  
+    width: 40%;
+}
+
+.parrafo3, .parrafo4, .parrafo5{  
+    width: 25%;
+}
+.container2 { 
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+
+.container4 { 
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.item {
+    width: 200px;
+    min-height: 200px;
+    height: 100px;
+    margin: 14px;
+    
+
+} 
+
+.box1{
+    background-color: pink;
+    
+} 
+.box2{
+    background-color: rgb(248, 100, 125);
+    
+}
+.box3{
+    background-color: rgb(100, 127, 248);
+}
+.box4{
+    background-color: rgb(100, 248, 223);
+}
+.box5{
+    background-color: rgb(100, 248, 162);
+}
+.box6{
+    background-color: rgb(209, 248, 100);
+}
+.box7{
+    background-color: rgb(248, 209, 100);
+}
+.box8{
+    background-color: rgb(248, 167, 100);
+}
+.box9{
+    background-color: rgb(248, 130, 100);
+}
+.box10{
+    background-color: rgb(248, 100, 149);
+}
+
+.codigo {display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 20px roboto;
+    color: #fff;
+    flex-direction: row;
+    padding: 38% 38% 38% 38%;
+    text-align: center;
+
+
+}
+
+
+hr { ;
+    border-style: dashed;
+    width:87%;
+
+} 
+
+
+.container3 { 
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+
+}
+
+.footer { 
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    background-color: #000;
+    padding-top: 40px;
+    min-height: 120px;
+}
+
+.container1{ 
+    width: 100vw;
+    min-height: 408px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    background-color: #fef2d5;
+}
+
+.imagen {
+    width: 100vw;
+height: auto;
+background-image: url("../img/header.png");
+background-repeat: no-repeat;
+
+}
+
+p {
+
+    font: 12px roboto;
+    line-height: normal;
+    line-height: 1.2;
+    text-align: left;
+    color:#000 ;
+
+}
+
+h3 {
+
+    font: 20px roboto;
+
+}
+
+.menu {
+
+    display: flex;
+
+}
+
+.topnav {
+    
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90vw;
+    flex: 2;
+    align-items: center;
+
+
+}
+.topnav a { text-align: center;
+    list-style:none;
+    padding: 0;
+    margin-top: 4px;
+    color: #000;
+    letter-spacing: 1px;
+    font: 12px roboto;
+    display: inline;
+    margin-right: 14px;
+    text-decoration: none;
+     
+}
+
+
+
+
+.logo {
+    display:flex;
+    align-content: flex-start;
+    width: 240px;
+    min-height: 90px;
+    padding-top: 0px;
+    margin-left: 30px;
+    
+    
+    
+
+}
+
+.logo img{ width: 50%;
+    height: auto;}
+
+
+
+img {
+
+    width: 400px;
+    height: 100px;
+    margin-top: 0;
+
+}
+
+
+/* media */
+
+
+
+@media screen and (max-width: 768px){
+
+
+.item {
+width: 122px;
+min-height: 122px;
+height: 100px;}
+.menu {flex-wrap: wrap;}
+}
+
+
+@media screen and (max-width: 300px){
+    img { margin-left: 54px;
+}
+    
+    
+@media screen and (max-width: 460px){
+
+.menu { flex-wrap: wrap;}
+.box10 .box9 {display: none;}
+img { margin-left: 53px;}
+
+.parrafo3, .parrafo4, .parrafo5 {
+        width: 90vw;
+        margin-left: 20px;
+    
+   }
+
+   .container3 {
+
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-bottom: 40px;
+    padding-top: 40px;
+   
+
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 600px){
+
+.nav {width:100%;
+    border: solid 1px #000;
+    height: 30px;
+    clear: both;}
+
+
+
+.topnav {
+flex-direction: column;
+text-align: center;}
+
+
+}
+
+    
+    
+ 
